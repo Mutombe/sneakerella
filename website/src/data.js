@@ -1,0 +1,263 @@
+// data/shoeData.js
+export const categories = [
+    {
+      id: 1,
+      name: 'Running',
+      image: '/running.avif',
+      count: 42,
+      description: 'High-performance running shoes for every level',
+    },
+    {
+      id: 2,
+      name: 'Basketball',
+      image: '/basket.webp',
+      count: 38,
+      description: 'Professional basketball shoes for the court',
+    },
+    {
+      id: 3,
+      name: 'Lifestyle',
+      image: '/life.webp',
+      count: 56,
+      description: 'Casual and comfortable everyday wear',
+    },
+    {
+      id: 4,
+      name: 'Training',
+      image: '/training.png',
+      count: 31,
+      description: 'Versatile training shoes for the gym',
+    },
+  ];
+  
+  export const products = [
+    {
+      id: 1,
+      name: "Nike Air Max Supreme",
+      price: 199.99,
+      image: "/airmax.jpg",
+      category: "Running",
+      rating: 4.5,
+      reviews: 128,
+      description: "Experience ultimate comfort and style with the Nike Air Max Supreme. Featuring advanced cushioning technology and premium materials for all-day wear.",
+      images: [
+        "/supreme1.jpg",
+        "/supreme2.png",
+        "/supreme3.webp",
+        "/airmax.jpg",
+      ],
+      sizes: [
+        { us: "7", uk: "6", eu: "40" },
+        { us: "8", uk: "7", eu: "41" },
+        { us: "9", uk: "8", eu: "42" },
+        { us: "10", uk: "9", eu: "43" },
+        { us: "11", uk: "10", eu: "44" },
+      ],
+      features: [
+        "Breathable mesh upper",
+        "Responsive cushioning",
+        "Durable rubber outsole",
+        "Premium materials",
+      ],
+      stock: 15,
+      colors: ["Black/Red", "White/Blue", "Grey/Orange"],
+    },
+    {
+      id: 2,
+      name: "Nike Zoom Elite",
+      price: 159.99,
+      image: "/zoom.avif",
+      category: "Running",
+      rating: 4.3,
+      reviews: 95,
+      description: "The Nike Zoom Elite delivers exceptional speed and comfort for serious runners.",
+      images: [
+        "/zoom.avif",
+        "/zoom1.webp",
+        "/zoom2.jpg",
+        "/zoom3.jpg",
+      ],
+      sizes: [
+        { us: "7", uk: "6", eu: "40" },
+        { us: "8", uk: "7", eu: "41" },
+        { us: "9", uk: "8", eu: "42" },
+        { us: "10", uk: "9", eu: "43" },
+      ],
+      features: [
+        "Zoom Air cushioning",
+        "Lightweight design",
+        "Enhanced stability",
+        "Breathable upper",
+      ],
+      stock: 8,
+      colors: ["Blue/White", "Black/Grey", "Red/Black"],
+    },
+    {
+      id: 3,
+      name: "Jordan Elite Pro",
+      price: 189.99,
+      image: "/jpro.jpg",
+      category: "Basketball",
+      rating: 4.8,
+      reviews: 156,
+      description: "Dominate the court with the Jordan Elite Pro, featuring superior ankle support and explosive performance technology.",
+        images: [
+            "/jpro.jpg",
+        "/elite1.webp",
+        "/elite2.webp",
+        "/elite3.avif",
+       
+      ],
+      sizes: [
+        { us: "8", uk: "7", eu: "41" },
+        { us: "9", uk: "8", eu: "42" },
+        { us: "10", uk: "9", eu: "43" },
+        { us: "11", uk: "10", eu: "44" },
+        { us: "12", uk: "11", eu: "45" },
+      ],
+      features: [
+        "High-top design",
+        "Zoom Air cushioning",
+        "Enhanced ankle support",
+        "Premium leather upper",
+      ],
+      stock: 12,
+      colors: ["Black/Red", "White/Gold", "Blue/White"],
+      },
+      {
+        id: 4,
+        name: "Nike Air Force 1",
+        price: 189.99,
+        image: "/airforce.png",
+        category: "Basketball",
+        rating: 4.8,
+        reviews: 156,
+        description: "Dominate the court with the Jordan Elite Pro, featuring superior ankle support and explosive performance technology.",
+        images: [
+          "/airforce.png",
+          "/a11.png",
+          "/a12.png",
+          "/a13.webp",
+        ],
+        sizes: [
+          { us: "8", uk: "7", eu: "41" },
+          { us: "9", uk: "8", eu: "42" },
+          { us: "10", uk: "9", eu: "43" },
+          { us: "11", uk: "10", eu: "44" },
+          { us: "12", uk: "11", eu: "45" },
+        ],
+        features: [
+          "High-top design",
+          "Zoom Air cushioning",
+          "Enhanced ankle support",
+          "Premium leather upper",
+        ],
+        stock: 12,
+        colors: ["Black/Red", "White/Gold", "Blue/White"],
+      },
+      {
+        id: 5,
+        name: "Nike Air Force 1 Pixel",
+        price: 189.99,
+        image: "/airforce2.webp",
+        category: "Basketball",
+        rating: 4.8,
+        reviews: 156,
+        description: "Dominate the court with the Jordan Elite Pro, featuring superior ankle support and explosive performance technology.",
+        images: [
+          "/airforce2.webp",
+          "/pixel1.jpg",
+          "/pixel2.jpg",
+          "/pixel3.avif",
+        ],
+        sizes: [
+          { us: "8", uk: "7", eu: "41" },
+          { us: "9", uk: "8", eu: "42" },
+          { us: "10", uk: "9", eu: "43" },
+          { us: "11", uk: "10", eu: "44" },
+          { us: "12", uk: "11", eu: "45" },
+        ],
+        features: [
+          "High-top design",
+          "Zoom Air cushioning",
+          "Enhanced ankle support",
+          "Premium leather upper",
+        ],
+        stock: 12,
+        colors: ["Black/Red", "White/Gold", "Blue/White"],
+      },
+    {
+      id: 6,
+      name: "Nike Alphafly",
+      price: 129.99,
+      image: "/alpha.jpg",
+      category: "Running",
+      rating: 4.6,
+      reviews: 312,
+      description: "The iconic Nike Air Force 1 combines classic style with modern comfort for everyday wear.",
+      images: [
+        "/alpha.jpg",
+        "/alpha1.webp",
+        "/alpha2.jpg",
+        "/alpha5.png",
+      ],
+      sizes: [
+        { us: "6", uk: "5", eu: "39" },
+        { us: "7", uk: "6", eu: "40" },
+        { us: "8", uk: "7", eu: "41" },
+        { us: "9", uk: "8", eu: "42" },
+        { us: "10", uk: "9", eu: "43" },
+        { us: "11", uk: "10", eu: "44" },
+      ],
+      features: [
+        "Premium leather construction",
+        "Air-Sole unit",
+        "Padded collar",
+        "Versatile design",
+      ],
+      stock: 25,
+      colors: ["White", "Black", "Grey", "Navy"],
+    },
+    {
+      id: 7,
+      name: "Nike Metcon 7",
+      price: 149.99,
+      image: "/metcon7.jpeg",
+      category: "Training",
+      rating: 4.7,
+      reviews: 183,
+      description: "The Nike Metcon 7 is built for intense training sessions with stability and durability in mind.",
+      images: [
+        "/metcon2.jpeg",
+        "/metcon3.avif",
+        "/metcon4.jpg",
+        "/metcon5.jpg",
+      ],
+      sizes: [
+        { us: "7", uk: "6", eu: "40" },
+        { us: "8", uk: "7", eu: "41" },
+        { us: "9", uk: "8", eu: "42" },
+        { us: "10", uk: "9", eu: "43" },
+        { us: "11", uk: "10", eu: "44" },
+      ],
+      features: [
+        "React foam cushioning",
+        "Stable heel platform",
+        "Durable rubber sidewalls",
+        "Breathable mesh",
+      ],
+      stock: 18,
+      colors: ["Black/White", "Grey/Volt", "Red/Black"],
+    }
+  ]; 
+
+  
+  export const getProductById = (id) => {
+    return products.find(product => product.id === parseInt(id));
+  };
+  
+  export const getProductsByCategory = (category) => {
+    return category 
+      ? products.filter(product => product.category.toLowerCase() === category.toLowerCase())
+      : products;
+  };
