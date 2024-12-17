@@ -11,6 +11,19 @@ import ProductDetail from './components/category/productdetails';
 import Footer from './components/footer/footer';
 import { CartProvider } from './cartContext';
 import Cart from './components/cart/cart';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
 
 // Placeholder components for other routes
 const Shop = () =><><CategoriesGrid /> <Products /></> ;
@@ -29,7 +42,8 @@ const App = () => {
   return (
     <Router>
       <CartProvider>
-      <div className="min-h-screen bg-white">
+        <div className="min-h-screen bg-white">
+          <ScrollToTop />
           <Navbar />
           <Toaster position="top-center" richColors />
         <main>
